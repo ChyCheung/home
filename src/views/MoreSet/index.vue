@@ -130,39 +130,39 @@ const jumpTo = (url) => {
       flex-direction: column;
       justify-content: space-between;
 
-      .logo {
-        transform: translateY(-8%);
-        font-family: "Pacifico-Regular";
-        padding-left: 22px;
-        width: 100%;
-        height: 260px;
-        min-height: 140px;
-        .bg {
-          font-size: 5rem;
-        }
+      // .logo {
+      //   transform: translateY(-8%);
+      //   font-family: "Pacifico-Regular";
+      //   padding-left: 22px;
+      //   width: 100%;
+      //   height: 260px;
+      //   min-height: 140px;
+      //   .bg {
+      //     font-size: 5rem;
+      //   }
 
-        .sm {
-          margin-left: 6px;
-          font-size: 2rem;
-        }
+      //   .sm {
+      //     margin-left: 6px;
+      //     font-size: 2rem;
+      //   }
 
-        @media (max-width: 990px) {
-          .bg {
-            font-size: 4.5rem;
-          }
-          .sm {
-            font-size: 1.7rem;
-          }
-        }
-        @media (max-width: 825px) {
-          .bg {
-            font-size: 3.8rem;
-          }
-          .sm {
-            font-size: 1.3rem;
-          }
-        }
-      }
+      //   @media (max-width: 990px) {
+      //     .bg {
+      //       font-size: 4.5rem;
+      //     }
+      //     .sm {
+      //       font-size: 1.7rem;
+      //     }
+      //   }
+      //   @media (max-width: 825px) {
+      //     .bg {
+      //       font-size: 3.8rem;
+      //     }
+      //     .sm {
+      //       font-size: 1.3rem;
+      //     }
+      //   }
+      // }
 
       .version {
         display: flex;
