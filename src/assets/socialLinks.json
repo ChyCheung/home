@@ -18,16 +18,16 @@
     "url": "https://res.abeim.cn/api/qq/?qq=1731137238"
   },
   {
-    "name": "Email",
-    "icon": "/images/icon/email.png",
-    "tip": "来封 Email ~",
-    "url": "mailto:ChyChueng@outlook.com"
-  },
-  {
     "name": "WeChat",
     "icon": "/images/icon/wechat.png",
     "tip": "加个好友？",
     "url": "weixin://dl/chat?zq1731137238"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "来封 Email ~",
+    "url": "mailto:ChyChueng@outlook.com"
   },
   {
     "name": "Telegram",
