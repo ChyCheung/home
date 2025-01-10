@@ -132,7 +132,7 @@ const jumpTo = (url) => {
 
       .logo {
         transform: translateY(-8%);
-        font-family: "Pacifico-Regular";
+        font-family: "Pacifico-Regular-all";
         padding-left: 22px;
         width: 100%;
         height: 260px;
