@@ -41,6 +41,7 @@
 </template>
 
 <script setup>
+
 import { Icon } from "@vicons/utils";
 // 可前往 https://www.xicons.org 自行挑选并在此处引入
 import { Link, Blog, IdCardRegular, ProjectDiagram, Compass, Book, Campground, LaptopCode, CameraRetro, Cat, Cloud, } from "@vicons/fa"; // 注意使用正确的类别
@@ -77,6 +78,14 @@ const siteIcon = {
 const jumpLink = (data) => {
   if (data.name === "音乐" && store.musicClick) {
     if (typeof $openList === "function") $openList();
+  } else if (data.name === "简历") { 
+    // 打开新窗口，要求用户输入密码，检查密码是否正确，正确则跳转，不正确则提示密码错误
+    const password = prompt("请输入密码:");
+    if (password === "正确的密码") {
+      window.open(data.link, "_blank");
+    } else {
+      alert("密码错误，请重试！");
+    }
   } else {
     window.open(data.link, "_blank");
   }
