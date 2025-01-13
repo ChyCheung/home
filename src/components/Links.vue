@@ -81,7 +81,7 @@ const jumpLink = (data) => {
   } else if (data.name === "简历") { 
     // 打开新窗口，要求用户输入密码，检查密码是否正确，正确则跳转，不正确则提示密码错误
     const password = prompt("请输入密码:");
-    if (password === "正确的密码") {
+    if (password === "2002") {
       window.open(data.link, "_blank");
     } else {
       alert("密码错误，请重试！");
