@@ -93,7 +93,7 @@ export const mainStore = defineStore("main", {
 });
 
 let getResume = () => {
-  let items = [...document.querySelector(".name.text-hidden")];
+  let items = [...document.querySelector(".item")];
   for (let i of items) {
     if (i.textContent === "简历") {
       return i.previousElementSibling;
